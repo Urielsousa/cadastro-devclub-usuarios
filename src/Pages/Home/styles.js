@@ -40,13 +40,17 @@ export const Form = styled.form`
   gap: 20px;
   max-width: 500px;
 `;
-export const ContainerInput = styled.div``;
+export const ContainerInput = styled.div`
+  display: flex;
+  gap: 20px;
+`;
 
 export const Input = styled.input`
   border-radius: 10px;
   border: 1px solid #d2dae2;
   background-color: #ffffff;
   padding: 12px 20px;
+  outline: none;
   width: 100%;
 `;
 export const InputLabel = styled.label`
@@ -59,4 +63,18 @@ export const InputLabel = styled.label`
     font-weight: bold;
   }
 `;
-export const Button = styled.button``;
+export const Button = styled.button`
+  border: none;
+  background: linear-gradient(180deg, #fe7e5d 0%, #ff6378 100%);
+  font-size: 16px;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 30px;
+  padding: 16px 32px;
+  &:hover {
+    opacity: 0.8;
+  }
+  &:active {
+    opacity: 0.4;
+  }
+`;
