@@ -22,7 +22,7 @@ Uma aplicação web de cadastro de usuários desenvolvida com **React**, **Vite*
 ```
 cadastro-devclub-usuarios/
 ├── src/
-│   ├── App.jsx                 # Componente principal
+│   ├── home.jsx                 # Componente principal
 │   ├── main.jsx                # Ponto de entrada
 │   ├── styles.js               # Componentes styled
 │   ├── assets/                 # Imagens e recursos
@@ -84,7 +84,7 @@ npm run lint
 
 ## 📁 Componentes Principais
 
-### `App.jsx`
+### `Home.jsx`
 Componente raiz que renderiza o formulário de cadastro com:
 - Imagem de usuário no topo
 - Formulário com inputs para Nome, Idade e Email
